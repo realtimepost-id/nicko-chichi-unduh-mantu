@@ -9,7 +9,7 @@ Letakkan di `public/assets/img/` dengan nama yang sama:
 |---|---|---|
 | `p1.jpg` … `p5.jpg` | 1100×1650 (2:3 potret) | cover, hero, galeri, lightbox |
 | `p1-s.jpg` … `p5-s.jpg` | 560×840 | thumbnail galeri |
-| `bride.webp`, `groom.webp` | 640×960, **latar transparan** | profil mempelai |
+| `bride.webp` (Chichi), `groom.webp` (Nicko) | portrait 2:3 (±1024×1536), **latar biru asli dipertahankan, tanpa crop** | profil mempelai — tampil utuh (`object-fit: contain`, bingkai 2:3). File asli ada di `sumber-foto/` |
 | `og.jpg` | 1200×630 | pratinjau WhatsApp/sosmed |
 Ubah teks alt dan titik fokus crop (`pos`, mis. `'50% 34%'` = posisi wajah) di `photos` pada `config/invitation.js`.
 Kompres foto baru (≈150–250 KB per `pN.jpg`) agar cepat dibuka di HP.
